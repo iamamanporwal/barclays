@@ -2573,6 +2573,7 @@ export default function App() {
           </button>
         ))}
       </aside>
+      // @ts-ignore
       <main className="w-4/5 p-8 bg-gray-100">{tabs[activeTab]}</main>
     </div>
   );
